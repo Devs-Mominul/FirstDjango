@@ -23,5 +23,7 @@ urlpatterns = [
     path("contact/",contact,name="contact"),
     path("service/",service,name="service"),
     path("blog/",service,name="blog"),
+    path("form/",formGets,name="form"),
+    path("postsubmit/",postsubmit,name="postsubmit"),
     path('admin/', admin.site.urls),
 ]
